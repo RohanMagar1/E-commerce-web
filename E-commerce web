@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title> eCommerce website</title>
+	<style type="text/css" media="all">
+		* {
+			padding: 0;
+			margin: 0;
+			font-family: 'Courier New', monospace
+		}
+
+		#header {
+			color: white;
+			background: #a1a3b9;
+			height: 95px;
+		}
+
+		#header h1 {
+padding: 30px 0 0 35px;
+font-weight: bold;
+font-size: 50px; 
+		}
+
+		/*navbar style  in this css */
+
+		#navbar {
+			background: whitesmoke;
+			height: 53px;
+		}
+
+		#navbar ul {
+			text-align: center;
+		}
+
+		#navbar ul li {
+			display: inline-block;
+			line-height: 50px;
+			margin: 0 5px;
+		}
+
+		#navbar ul li a {
+			text-decoration: none;
+			border: 2px solid black;
+			padding: 8px;
+			border-radius: 20px;
+		}
+
+		#navbar ul li a.active {
+			background: blue;
+			color: white;
+		}
+		#navbar ul li a:hover{
+			background:black;
+		color:white
+		}
+
+		/* this the Search bar and category choice  style */
+
+		#content {
+			background: blue;
+			height: 62px;
+		}
+
+		.text {
+			margin: 7px 0 0 23px;
+			line-height: 40px;
+			width: 50%;
+			padding: 2px;
+			border-radius: 12px;
+		}
+#content ul {
+	display: inline-block;
+	float: right;
+	line-height: 57px; 
+	margin: 0 53px 0 0;
+	list-style: none; 
+}
+	#content ul li a{
+		color: white;
+		font-weight: bold;
+		font-size: 34px; 
+		text-decoration: none; 
+		border: solid 1px black;
+		border-radius: 12px; 
+		padding: 6px;
+	}
+
+#content ul li a:hover{
+	background: white;
+	color: black;
+}
+		/* main tag and card make and style  */
+
+		#main {
+			margin: 12px 0 12px 0;
+			justify-items: center;
+			text-align: center;
+			background: white;
+		}
+
+		.card {
+			display: inline-block;
+			width: 29%;
+			margin: 5px;
+			padding: 12px;
+			border: silver solid 1px;
+			border-radius: 15px;
+		}
+
+		#main img {
+			width: 100px
+		}
+		.card p {
+			margin: 13px;
+		}
+
+		.card a {
+			margin: 1px;
+			border-radius: 40px;
+			padding: 5px;
+			border: 1px solid black;
+			text-decoration: none;
+			color: black;
+			font-size: 25px;
+			font-weight: bold;
+		}
+
+		.card a:hover {
+			margin: 10px;
+			border-radius: 30px;
+			padding: 8px;
+			border: 1px solid black;
+			background: blue;
+			color: whitesmoke;
+		}
+
+		/*footer css style  this */
+		#footer {
+			font-size: 20px;
+			height: 30px;
+			text-align: center;
+			color: white;
+			background: black;
+		}
+
+		/*this the pre tag style */
+
+		pre {
+			text-align: left;
+			font-size: 34px;
+			font-weight: bold;
+
+		}
+		
+		span{
+			font-size: 35px;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="header">
+<h1>Magar Rohan</h1>
+	</div>
+	
+	<div id="content">
+		<input class="text" type="text" placeholder="   mobiles,wemen,kids, beauty, large">	  <span>🔍</span>      	<ul>
+			<li><a href="#">sign-up</a></li>
+		</ul>
+		</div>
+
+
+	<div id="navbar">
+ 	<ul>
+	<li><a class="active" href="#Mobiles">Mobiles</a></li>
+	<li><a href="#Women">Women</a></li>
+<li><a href="#Kids">Kids</a></li>
+		<li><a href="#Beauty">Beauty</a></li>
+		<li><a href="#Home&furniture">Home&Furniture</a></li>
+		<li><a href="#large">Large</a></li>
+		<li><a href="#Electronics">Electronics</a></li>
+		<li><a href="#baby">Baby Care</a></li>
+		
+	</ul>
+	</div>
+
+	<div id="main">
+		<div id="mobiles">
+			<pre>
+				
+ Mobiles
+    </pre>
+<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+		</div>
+
+		<div id="Women">
+
+			<pre>
+				
+ Women </pre>
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+		</div>
+
+		<div id="Kids">
+			<pre>
+
+
+ Kids</pre>
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+		</div>
+
+
+		<div id="Beauty">
+			<pre>
+
+
+ Beauty</pre>
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+		</div>
+
+		<div id="Home&furniture">
+
+			<pre>
+
+
+ Home&furniture</pre>
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+		</div>
+
+		<div id="large">
+			<pre>
+
+
+ Large</pre>
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+		</div>
+		<div id="Electronics">
+			<pre>
+
+
+ Electronics</pre>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+		</div>
+
+		<div id="baby">
+
+			<pre>
+
+
+ Baby care</pre>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+			<div class="card">
+				<img src="prafum.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+
+			<div class="card">
+				<img src="phone.png" alt="">
+				<h2>shope pay</h2>
+				<p>$ 21.2</p>
+				<p>Blogs are a great way to shere your thoughts and ideas with the world they </p>
+				<a href="#">buy</a>
+			</div>
+
+		</div>
+
+	</div>
+	<br>
+	<div id="footer">
+
+		copyright@ By Magar Rohan
+	</div>
+
+</body>
+
+</html>
